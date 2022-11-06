@@ -1,0 +1,3 @@
+ALTER TABLE imageinfo ADD COLUMN width int SET DEFAULT 0;
+ALTER TABLE imageinfo ADD COLUMN height int SET DEFAULT 0;
+ALTER TABLE imageinfo ADD COLUMN originalFileName varchar(256) DEFAULT 'undef';
